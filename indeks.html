@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florablast Handmade Flower</title>
+
+    <!--my Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!--fetther icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- script lebih lanjut -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--my style css-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <div class="row">
+        <div class="logo_img">
+          <img src="image/Florablast id.png" />
+          <!--uk 50 x 50-->
+        </div>
+        <div class="navbar-logo">
+          <a href="#">Florablast<span>HandmadeFlower</span>.</a>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <!-- <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a> tidak isi karena ini tidak bisa beli secara online-->
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- search form start-->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"></label>
+        <div class="search-results"></div>
+      </div>
+      <!-- search form end -->
+    </nav>
+    <!--navbar end-->
+    <!-- hero section start-->
+    <section class="hero" id="home">
+      <!--tagline toko-->
+      <main class="content">
+        <h1>We Craft Flower, <span>Because You</span></h1>
+        <p>
+          Temukan bunga buatan berkualitas di Florablast, dengan koleksi yang
+          beragam dan realistis, memberikan keindahan abadi tanpa perawatan
+          khusus.
+        </p>
+        <a href="#product" class="cta">Beli Sekarang</a>
+        <!--halaman product-->
+      </main>
+    </section>
+    <!-- hero section end-->
+    <!-- whatsapp button Start -->
+    <div class="WhatsApp">
+      <a
+        href="https://api.whatsapp.com/send?phone=62895367374644&text=Halo kak, saya tertarik dengan produk dari Florablast."
+        target="_blank"
+      >
+        <img src="image/Wa.png" alt="WhatsApp" />
+      </a>
+      <!-- <div class="cara">
+            <a>Click To Order</a>
+        </div> -->
+    </div>
+    <!-- whatsapp button End -->
+    <!--About section START-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="image/Flora_Menu1.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih Florablast ?</h3>
+          <p>
+            Florablast menghadirkan buket bunga dari <span>kain flanel</span>,
+            dengan komposisi yang elegan dan pewarnaan yang harmonis, menjadi
+            perwujudan keindahan dalam setiap tangkai.
+          </p>
+          <p>
+            Tempat di mana keindahan berkumpul dalam buket bunga yang
+            menakjubkan, mengirimkan pesan kasih dan kegembiraan kepada orang
+            yang istimewa, dan Florablast memberikan keindahan tak terkalahkan
+            dalam setiap buket bunga, dengan kombinasi warna yang menawan dan
+            aransemen yang elegan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--About section END-->
+    <!--produk section start-->
+    <section id="product" class="product">
+      <h2><span>Produk</span> Kami</h2>
+      <p>
+        Jelajahi koleksi bunga buatan kami sekarang dan temukan keindahan yang
+        tak terbantahkan. Lihat produk kami dan biarkan diri Anda terpesona oleh
+        keindahan yang kami tawarkan.
+      </p>
+      <!-- PRODUK -->
+      <div class="row">
+        <!-- BOUQUET GRADU -->
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ILARIA_BOUQUET-IDR100K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name"> - ILARIA BOUQUET -</span></h3>
+            <p>IDR 100K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ELLA_BOUQUET-IDR115K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- ELLA BOUQUET -</span></h3>
+            <p>IDR 115K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ORIANA_BOUQUET-IDR135K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- ORIANA BOUQUET -</span></h3>
+            <p>IDR 135K</p>
+          </div>
+        </div>
+        <!-- BOUQUET BIASA -->
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ILARIA_BOUQUET-IDR100K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>- ILARIA BOUQUET -</h3>
+            <p>IDR 100K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ELLA_BOUQUET-IDR115K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>- ELLA BOUQUET -</h3>
+            <p>IDR 115K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/1.GRADU BOUQUET/ORIANA_BOUQUET-IDR135K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>- ORIANA BOUQUET -</h3>
+            <p>IDR 135K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/0.UNDER 100K/SUNNY_BOUQUET-IDR65K.jpg"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- SUNNY BOUQUET -</span></h3>
+            <p>IDR 65K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/0.UNDER 100K/ROSALIE_BOUQUET-IDR85K.jpg"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- ROSALIE BOUQUET -</span></h3>
+            <p>IDR 85K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/0.UNDER 100K/NAOMI_BOUQUET - IDR 100K.jpg"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- NAOMI BOUQUET -</span></h3>
+            <p>IDR 100K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/100K-150K/BULAN_BOUQUET-IDR110K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- BULAN BOUQUET -</span></h3>
+            <p>IDR 110K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/100K-150K/BRIGHT_BOUQUET-IDR125K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- BRIGHT BOUQUET -</span></h3>
+            <p>IDR 125K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/100K-150K/VANYA_BOUQUET-IDR150K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- VANYA BOUQUET -</span></h3>
+            <p>IDR 150K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/150K-250K/EARTH_BOUQUET-IDR155K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- EARTH BOUQUET -</span></h3>
+            <p>IDR 155K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/150K-250K/CLASSIC_ROSE_BOUQUET-IDR160K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- CLASSIC ROSE BOUQUET -</span></h3>
+            <p>IDR 160K</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="image/0.FLOWER BOUQUET/150K-250K/JANGMI_BOUQUET-IDR215K.png"
+              alt="product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3><span class="product-name">- JANGMI BOUQUET -</span></h3>
+            <p>IDR 215K</p>
+          </div>
+        </div>
+      </div>
+      <button id="more" class="show-more">Lihat Semua</button>
+    </section>
+    <!--produk section End-->
+    <!--contack section start-->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Silakan hubungi kami melalui kontak di bawah ini atau klik tombol
+        WhatsApp disamping bawah untuk informasi lebih lanjut atau pertanyaan.
+        Kami siap membantu Anda dengan senang hati!
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.835477355831!2d115.1980586!3d-8.6117894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2410754ad0ec1%3A0x43cf5fbd0b37671e!2sFlorablast%20Handmade%20Flower!5e0!3m2!1sid!2sid!4v1684367752071!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <h1>-- Florablast Handmade Flower --</h1>
+          <p>
+            Jl. Nuansa Kori XIX No.15, Ubung Kaja, Kec. Denpasar Utara, Kota
+            Denpasar, Bali
+          </p>
+
+          <h1>-- ask. --</h1>
+          <p>Wa : 0895367374644</p>
+          <p>IG : florablast.id</p>
+          <p>FB : florablast.id</p>
+
+          <h1>OPENING HOURS :</h1>
+          <p>Mon-Sat : 10am - 10pm</p>
+          <p>Sun : 11am - 10pm</p>
+          <a
+            href="https://www.google.com/maps/dir//Florablast+Handmade+Flower+Jl.+Nuansa+Kori+XIX+No.15+Ubung+Kaja+Kec.+Denpasar+Utara,+Kota+Denpasar,+Bali+80116/@-8.6117894,115.1980586,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2dd2410754ad0ec1:0x43cf5fbd0b37671e!2m2!1d115.1980586!2d-8.6117894?entry=ttu"
+            target="_blank"
+            rel="nofollow"
+            class="btn"
+          >
+            GET DIRECTIONS
+          </a>
+        </form>
+      </div>
+    </section>
+    <!--contack section End-->
+    <!--footer start-->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/florablast.id"
+          ><i class="bi bi-instagram icon-large"></i
+        ></a>
+        <a href="https://www.tiktok.com/@florablast.id"
+          ><i class="bi bi-tiktok icon-large"></i
+        ></a>
+        <a href="https://pin.it/3ixVYOF"
+          ><i class="bi bi-pinterest icon-large"></i
+        ></a>
+        <a href="https://www.facebook.com/Florablast.id"
+          ><i class="bi bi-facebook icon-large"></i
+        ></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">kontak</a>
+      </div>
+      <div class="credit">
+        <p>created by <a href="">AWDTRA_</a> | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!--footer End-->
+    <!-- Modal Box Item Detail Start 
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="" />
+        </div>
+      </div>
+    </div>
+     Modal Box Item Detail End -->
+    <!--fetther icon-->
+    <script>
+      feather.replace();
+    </script>
+    <!--my javascript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
